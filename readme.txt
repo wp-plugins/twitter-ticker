@@ -31,7 +31,8 @@ Follow <a href="http://twitter.com/tweettic">Twitter Ticker</a> to stay up-to-da
 
 == Screenshots ==
 
-1. screenshot_ticker.jpg
+1. Twitter Ticker at the bottom of the screen.
+2. Twitter Ticker neatly collapsed.
 
 == Changelog ==
 
