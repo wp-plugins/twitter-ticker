@@ -19,7 +19,7 @@ Stylish widget to display twitter search results, in a news ticker fashion.
 
 Example search queries:
 
-* <strong>from:bbc</strong> - Tweets only from the tweettic
+* <strong>from:bbc</strong> - Tweets only from the BBC
 * <strong>ticker</strong> - Tweets containing the word 'ticker'
 * <strong>@tweettic</strong> - Tweets mentioning a user (tweettic)
 * <strong>to:tweettic</strong> - Tweets replying to a user (tweettic)
