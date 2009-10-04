@@ -34,9 +34,9 @@ if (!class_exists("TwitterTicker")) {
 		}
 		//Returns an array of admin options
 		function getAdminOptions() {
-			$twitterTickerAdminOptions = array('show_header' => 'true',
-				'add_content' => 'walk', 
-				'content' => '@biz');
+			$twitterTickerAdminOptions = array('auto_reveal' => 'true',
+				'speed' => 'walk', 
+				'query' => '@biz');
 			$devOptions = get_option($this->adminOptionsName);
 			if (!empty($devOptions)) {
 				foreach ($devOptions as $key => $option)
@@ -53,9 +53,9 @@ if (!class_exists("TwitterTicker")) {
       <script src="http://eduvoyage.com/ttseed.js" type="text/javascript"></script>	
       <script type="text/javascript" charset="utf-8"><!--
        //SETTINGS BELOW
-       keywords = '<?php _e(stripslashes($devOptions['content'])); ?>';
-       auto = <?php _e($devOptions['show_header']); ?>;
-       speed = '<?php _e($devOptions['add_content']); ?>';
+       keywords = '<?php _e(stripslashes($devOptions['query'])); ?>';
+       auto = <?php _e($devOptions['auto_reveal']); ?>;
+       speed = '<?php _e($devOptions['speed']); ?>';
       --></script>
       			<?php
 		
@@ -74,14 +74,14 @@ if (!class_exists("TwitterTicker")) {
 					$devOptions = $this->getAdminOptions();
 										
 					if (isset($_POST['update_twitterTickerPluginSeriesSettings'])) { 
-						if (isset($_POST['twitterTickerHeader'])) {
-							$devOptions['show_header'] = $_POST['twitterTickerHeader'];
+						if (isset($_POST['auto_reveal'])) {
+							$devOptions['auto_reveal'] = $_POST['auto_reveal'];
 						}	
-						if (isset($_POST['twitterTickerAddContent'])) {
-							$devOptions['add_content'] = $_POST['twitterTickerAddContent'];
+						if (isset($_POST['query'])) {
+							$devOptions['query'] = $_POST['query'];
 						}	
-						if (isset($_POST['twitterTickerContent'])) {
-							$devOptions['content'] = apply_filters('content_save_pre', $_POST['twitterTickerContent']);
+						if (isset($_POST['speed'])) {
+							$devOptions['speed'] = apply_filters('content_save_pre', $_POST['speed']);
 						}
 						update_option($this->adminOptionsName, $devOptions);
 						
@@ -94,7 +94,7 @@ if (!class_exists("TwitterTicker")) {
 <h2>Twitter Ticker</h2>
 <h3>Search Query</h3>
 
-<input type="text" name="twitterTickerContent" value="<?php _e(stripslashes(htmlspecialchars($devOptions['content'])), 'TwitterTicker') ?>">
+<input type="text" name="query" value="<?php _e(stripslashes(htmlspecialchars($devOptions['query'])), 'TwitterTicker') ?>">
 
 <ul>
 <li><strong>from:bbc</strong> - Tweets only from the tweettic</li>
@@ -106,30 +106,29 @@ if (!class_exists("TwitterTicker")) {
 
 <h3>Automatically reveal ticker when page loads?</h3>
 <p>
-<label for="twitterTickerHeader_yes">
-<input type="radio" id="twitterTickerHeader_yes" name="twitterTickerHeader" value="true" <?php if ($devOptions['show_header'] == "true") { _e('checked="checked"', "TwitterTicker"); }?> /> Yes</label>
+<label for="twitterAutoReveal_yes">
+<input type="radio" id="auto_reveal_yes" name="auto_reveal" value="true" <?php if ($devOptions['auto_reveal'] == "true") { _e('checked="checked"', "TwitterTicker"); }?> /> Yes</label>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
-<label for="devloungeHeader_no">
-<input type="radio" id="twitterTickerHeader_no" name="twitterTickerHeader" value="false" <?php if ($devOptions['show_header'] == "false") { _e('checked="checked"', "TwitterTicker"); }?>/> No</label></p>
+<label for="auto_reveal_no">
+<input type="radio" id="auto_reveal_no" name="auto_reveal" value="false" <?php if ($devOptions['auto_reveal'] == "false") { _e('checked="checked"', "TwitterTicker"); }?>/> No</label></p>
 
 <h3>Ticker Speed?</h3>
 <p>
-<label for="twitterTickerAddContent_crawl">
-<input type="radio" id="twitterTickerAddContent_crawl" name="twitterTickerAddContent" value="crawl" <?php if ($devOptions['add_content'] == "crawl") { _e('checked="checked"', "TwitterTicker"); }?> /> Crawl</label>
+<label for="speed_crawl">
+<input type="radio" id="speed_crawl" name="speed" value="crawl" <?php if ($devOptions['speed'] == "crawl") { _e('checked="checked"', "TwitterTicker"); }?> /> Crawl</label>
 
 &nbsp;&nbsp;&nbsp;
-<label for="twitterTickerAddContent_walk">
-<input type="radio" id="twitterTickerAddContent_walk" name="twitterTickerAddContent" value="walk" <?php if ($devOptions['add_content'] == "walk") { _e('checked="checked"', "TwitterTicker"); }?>/> Walk</label>
+<label for="speed_walk">
+<input type="radio" id="speed_walk" name="speed" value="walk" <?php if ($devOptions['speed'] == "walk") { _e('checked="checked"', "TwitterTicker"); }?>/> Walk</label>
 
 &nbsp;&nbsp;&nbsp;
-<label for="twitterTickerAddContent_run">
-<input type="radio" id="twitterTickerAddContent_run" name="twitterTickerAddContent" value="run" <?php if ($devOptions['add_content'] == "run") { _e('checked="checked"', "TwitterTicker"); }?>/> Run</label>
+<label for="speed_run">
+<input type="radio" id="speed_run" name="speed" value="run" <?php if ($devOptions['speed'] == "run") { _e('checked="checked"', "TwitterTicker"); }?>/> Run</label>
 
 &nbsp;&nbsp;&nbsp;
-<label for="twitterTickerAddContent_sprint">
-<input type="radio" id="twitterTickerAddContent_sprint" name="twitterTickerAddContent" value="sprint" <?php if ($devOptions['add_content'] == "sprint") { _e('checked="checked"', "TwitterTicker"); }?>/> Sprint</label>
-
+<label for="speed_sprint">
+<input type="radio" id="speed_sprint" name="speed" value="sprint" <?php if ($devOptions['speed'] == "sprint") { _e('checked="checked"', "TwitterTicker"); }?>/> Sprint</label>
 
 </p>
 
