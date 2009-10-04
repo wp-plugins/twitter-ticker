@@ -1,13 +1,13 @@
 <?php
 /*
 Plugin Name: Twitter Ticker
-Plugin URI: http://www.eduvoyage.com/twitter_ticker
+Plugin URI: http://www.eduvoyage.com/twitter_ticker/index.html
 Version: v0.1
-Author: <a href="http://www.eduvoyage.com/">Omar Sahyoun</a>
-Description: Stylish widget to display twitter search results. YOU set the search query.
+Author: <a href="http://www.eduvoyage.com/twitter_ticker/index.html">EduVoyage</a>
+Description: Stylish widget to display twitter search results, in a news ticker fashion.
 
  
-Copyright 2009  Omar Sahyoun  (email : omar [a t ] eduvoyage DOT com)
+Copyright 2009  EduVoyage  (email : ticker [a t ] eduvoyage DOT com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
