@@ -1,6 +1,7 @@
 === Plugin Name ===
 Contributors: osahyoun
 Tags: twitter, tweets, ticker, feed, widget
+Requires at least: 1.5
 Tested up to: 2.8.4
 Stable tag: trunk
 
