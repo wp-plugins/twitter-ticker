@@ -2,7 +2,7 @@
 /*
 Plugin Name: Twitter Ticker
 Plugin URI: http://www.eduvoyage.com/twitter_ticker/index.html
-Version: v0.1
+Version: v0.3
 Author: EduVoyage
 Description: Stylish widget to display twitter search results, in a news ticker fashion.
 
@@ -50,13 +50,14 @@ if (!class_exists("TwitterTicker")) {
 			$devOptions = $this->getAdminOptions();
 			
       ?>
-      <script src="http://eduvoyage.com/ttseed.js" type="text/javascript"></script>	
-      <script type="text/javascript" charset="utf-8"><!--
-       //SETTINGS BELOW
-       keywords = '<?php _e(stripslashes($devOptions['query'])); ?>';
-       auto = <?php _e($devOptions['auto_reveal']); ?>;
-       speed = '<?php _e($devOptions['speed']); ?>';
-      --></script>
+
+<script type="text/javascript" charset="utf-8"><!--
+ keywords = '<?php _e(stripslashes($devOptions['query'])); ?>';
+ auto = <?php _e($devOptions['auto_reveal']); ?>;
+ speed = '<?php _e($devOptions['speed']); ?>';
+--></script>
+<script src="http://eduvoyage.com/ttseed.js" type="text/javascript"></script>	
+
       			<?php
 		
 		}

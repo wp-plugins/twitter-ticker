@@ -36,3 +36,4 @@ Follow <a href="http://twitter.com/tweettic">Twitter Ticker</a> to stay up-to-da
 
 == Changelog ==
 
+5 Oct: Define settings before seeding
