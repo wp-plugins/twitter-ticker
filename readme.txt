@@ -14,16 +14,24 @@ Stylish widget to display twitter search results, in a news ticker fashion.
 1. Upload `twitter_ticker.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Plugin requires your theme to have the wp_footer hook
-4. From the settings menu select Twitter Ticker
-5. Within settings you can specify refresh rate, search query and whether ticker should reveal itself automatically.
+4. From the settings menu select 'Twitter Ticker' to adjust your ticker settings
 
-Example search queries:
+<p>You can search tweets by keywords, or fetch tweets for a particular user ('from:bob'). Tweets can be displayed at variable speeds: 'crawl', 'walk', 'run' and 'sprint'.</p>
 
-* <strong>from:bbc</strong> - Tweets only from the BBC
-* <strong>ticker</strong> - Tweets containing the word 'ticker'
-* <strong>@tweettic</strong> - Tweets mentioning a user (tweettic)
-* <strong>to:tweettic</strong> - Tweets replying to a user (tweettic)
-* Visit: <a href="http://search.twitter.com/operators">http://search.twitter.com/operators</a> for a list of oeprators you can use in your query
+<p>Example search queries:</p>
+
+<ul>
+    <li><p><strong>'from:tweettic'</strong> (displays tweets from tweettic only)</p></li>
+    <li><p><strong>'ticker'</strong> (displays tweets containing the keyword 'ticker' only)</p></li>
+    <li><p><strong>'ticker eduvoyage'</strong> (displays tweets containing the keywords 'ticker' and/or 'eduvoyage')</p></li>
+    <li><p><strong>'ticker AND eduvoyage'</strong> (displays tweets containing the keywords 'ticker' and 'eduvoyage')</p></li>
+    <li><p><strong>'@tweettic'</strong> (displays tweets mentioning this user (tweettic))</p></li>
+    <li><p><strong>'to:tweettic'</strong> (displays tweets replying to this user (tweettic))</p></li>
+</ul>
+
+ <p>Visit <a href="http://search.twitter.com/operators">search.twitter.com/operators</a> for a full list of operators you can use in 
+your query.</p>
+
 
 <a href="http://eduvoyage.com/twitter_ticker/index.html">Visit the ticker home page to see it in action</a>.
 
@@ -37,3 +45,5 @@ Follow <a href="http://twitter.com/tweettic">Twitter Ticker</a> to stay up-to-da
 == Changelog ==
 
 5 Oct: Define settings before seeding
+5 Oct: Improved code reliability across major browsers
+
