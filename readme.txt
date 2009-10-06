@@ -5,9 +5,10 @@ Requires at least: 1.5
 Tested up to: 2.8.4
 Stable tag: trunk
 
-Stylish widget to display twitter search results, in a news ticker fashion.
+Twitter Ticker is a stylish widget to display twitter search results, in a news ticker fashion. 
 
 == Description ==
+
 
 == Installation ==
 
@@ -41,6 +42,10 @@ Follow <a href="http://twitter.com/tweettic">Twitter Ticker</a> to stay up-to-da
 
 1. Twitter Ticker at the bottom of the screen.
 2. Twitter Ticker neatly collapsed.
+
+
+== FAQ ==
+Contact us at ticker [at] eduvoyage [dot] com if you need any help installing the plugin or have any feature requests.
 
 == Changelog ==
 
