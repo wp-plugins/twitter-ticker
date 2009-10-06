@@ -22,12 +22,16 @@ Twitter Ticker is a stylish widget to display twitter search results, in a news 
 <p>Example search queries:</p>
 
 <ul>
-    <li><p><strong>'from:tweettic'</strong> (displays tweets from tweettic only)</p></li>
-    <li><p><strong>'ticker'</strong> (displays tweets containing the keyword 'ticker' only)</p></li>
-    <li><p><strong>'ticker eduvoyage'</strong> (displays tweets containing the keywords 'ticker' and/or 'eduvoyage')</p></li>
-    <li><p><strong>'ticker AND eduvoyage'</strong> (displays tweets containing the keywords 'ticker' and 'eduvoyage')</p></li>
-    <li><p><strong>'@tweettic'</strong> (displays tweets mentioning this user (tweettic))</p></li>
-    <li><p><strong>'to:tweettic'</strong> (displays tweets replying to this user (tweettic))</p></li>
+    <li><p><strong>'from:tweettic';</strong> (displays tweets from tweettic only)</p></li>
+    <li><p><strong>'from:tweettic from:biz from:twitter';</strong> (displays tweets from tweettic, twitter and biz only)</p></li>
+    <li><p><strong>'ticker';</strong> (displays tweets containing the keyword 'ticker' only)</p></li>
+    <li><p><strong>'ticker twitter';</strong> (displays tweets containing the keywords 'ticker' and 'twitter')</p></li>
+    <li><p><strong>'"twitter ticker"';</strong> (displays tweets containing the exact phrase 'twitter ticker')</p></li>      
+    <li><p><strong>'@tweettic';</strong> (displays tweets mentioning this user (tweettic))</p></li>
+    <li><p><strong>'@tweettic @twitter';</strong> (displays tweets mentioning twitter AND tweettic)</p></li>      
+    <li><p><strong>'@tweettic OR @twitter';</strong> (displays tweets mentioning twitter OR tweettic)</p></li>
+    <li><p><strong>'to:tweettic';</strong> (displays tweets replying to this user (tweettic))</p></li>
+    <li><p><strong>'to:tweettic to:twitter';</strong> (displays tweets replying to twitter and tweettic)</p></li>      
 </ul>
 
  <p>Visit <a href="http://search.twitter.com/operators">search.twitter.com/operators</a> for a full list of operators you can use in 
@@ -51,4 +55,4 @@ Contact us at ticker [at] eduvoyage [dot] com if you need any help installing th
 
 5 Oct: Define settings before seeding
 5 Oct: Improved code reliability across major browsers
-
+6 Oct: Updated example search queries

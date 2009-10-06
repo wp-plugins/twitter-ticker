@@ -96,14 +96,20 @@ if (!class_exists("TwitterTicker")) {
 <h3>Search Query</h3>
 
 <input type="text" name="query" value="<?php _e(stripslashes(htmlspecialchars($devOptions['query'])), 'TwitterTicker') ?>">
-
+<p>Example search queries:</p>
 <ul>
-<li><strong>from:bbc</strong> - Tweets only from the tweettic</li>
-<li><strong>ticker</strong> - Tweets containing the word 'ticker'</li>
-<li><strong>@tweettic</strong> - Tweets mentioning a user (tweettic)</li>
-<li><strong>to:tweettic</strong> - Tweets replying to a user (tweettic)</li>
-<li>Visit: <a href="http://search.twitter.com/operators">http://search.twitter.com/operators</a> for a list of oeprators you can use in your query</li>
+    <li><p><strong>'from:tweettic'</strong> (displays tweets from tweettic only)</p></li>
+    <li><p><strong>'from:tweettic from:biz from:twitter'</strong> (displays tweets from tweettic, twitter and biz only)</p></li>
+    <li><p><strong>'ticker'</strong> (displays tweets containing the keyword 'ticker' only)</p></li>
+    <li><p><strong>'ticker twitter'</strong> (displays tweets containing the keywords 'ticker' and 'twitter')</p></li>
+    <li><p><strong>'"twitter ticker"'</strong> (displays tweets containing the exact phrase 'twitter ticker')</p></li>      
+    <li><p><strong>'@tweettic'</strong> (displays tweets mentioning this user (tweettic))</p></li>
+    <li><p><strong>'@tweettic @twitter'</strong> (displays tweets mentioning twitter AND tweettic)</p></li>      
+    <li><p><strong>'@tweettic OR @twitter'</strong> (displays tweets mentioning twitter OR tweettic)</p></li>
+    <li><p><strong>'to:tweettic'</strong> (displays tweets replying to this user (tweettic))</p></li>
+    <li><p><strong>'to:tweettic to:twitter'</strong> (displays tweets replying to twitter and tweettic)</p></li>      
 </ul>
+
 
 <h3>Automatically reveal ticker when page loads?</h3>
 <p>
