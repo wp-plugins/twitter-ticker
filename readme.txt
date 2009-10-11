@@ -56,3 +56,4 @@ Contact us at ticker [at] eduvoyage [dot] com if you need any help installing th
 5 Oct: Define settings before seeding
 5 Oct: Improved code reliability across major browsers
 6 Oct: Updated example search queries
+11 Oct: Improved robustness of CSS
