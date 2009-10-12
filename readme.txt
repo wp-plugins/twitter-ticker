@@ -57,5 +57,5 @@ Contact us at ticker [at] eduvoyage [dot] com if you need any help installing th
 <li>5 Oct: Improved code reliability across major browsers</li>
 <li>6 Oct: Updated example search queries</li>
 <li>11 Oct: Improved robustness of CSS</li>
-<li>12 Oct (v0.4.3): Removed invalid function call (thanks to Dj PHANTOMZ @ http://www.mediaz-empire.com) for brining the error to my attention</li>
+<li>12 Oct (v0.4.3): Removed invalid function call (thanks to Dj PHANTOMZ @ http://www.mediaz-empire.com for brining the error to my attention)</li>
 </ul>
