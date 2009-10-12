@@ -14,7 +14,7 @@ Twitter Ticker is a stylish widget to display twitter search results, in a news 
 
 1. Upload `twitter_ticker.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Plugin requires your theme to have the wp_footer hook
+3. Plugin requires your theme to have the wp_footer hook: `<?php get_footer(); ?>`
 4. From the settings menu select 'Twitter Ticker' to adjust your ticker settings, including speed and search query.
 
 <p>You can search tweets by keywords, or fetch tweets for a particular user ('from:bob'). Tweets can be displayed at variable speeds: 'crawl', 'walk', 'run' and 'sprint'.</p>
@@ -57,3 +57,4 @@ Contact us at ticker [at] eduvoyage [dot] com if you need any help installing th
 5 Oct: Improved code reliability across major browsers
 6 Oct: Updated example search queries
 11 Oct: Improved robustness of CSS
+12 Oct (v0.4.3): Removed invalid function call (thanks to Dj PHANTOMZ @ http://www.mediaz-empire.com) for brining the error to my attention
