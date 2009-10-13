@@ -2,7 +2,7 @@
 /*
 Plugin Name: Twitter Ticker
 Plugin URI: http://www.eduvoyage.com/twitter_ticker/index.html
-Version: v0.4.3
+Version: v0.4.4
 Author: EduVoyage
 Description: Stylish widget to display twitter search results, in a news ticker fashion.
 

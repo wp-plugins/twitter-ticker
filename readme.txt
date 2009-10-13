@@ -3,6 +3,7 @@ Contributors: osahyoun
 Tags: twitter, tweets, ticker, feed, widget
 Requires at least: 1.5
 Tested up to: 2.8.4
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8877224
 Stable tag: trunk
 
 Twitter Ticker is a stylish widget to display twitter search results, in a news ticker fashion. 
