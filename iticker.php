@@ -103,6 +103,7 @@ function iticker_config() {
 								<td valign="top"><input type="checkbox" id="iticker_enabled" name="iticker_enabled" <?php echo ($iticker_enabled ? 'checked="checked"' : ''); ?> /> <label for="iticker_enabled">Enable or disable iticker</label><br/></td></tr>
 								<tr><th valign="top" scrope="row"><label for="toolbarpath">ITICKER ID:</label></th>
 								<td valign="top"><input id="sid" name="sid" type="text" size="20" value="<?php echo $iticker_sid; ?>"/></td></tr>
+								<tr><td colspan='2'><p>Get you <strong>ITICKER ID</strong> from <a href="http://www.itickerapp.com" target="_blank">www.itickerapp.com</a></p></td></tr>
 							</table>
 						</div>
 					</div>

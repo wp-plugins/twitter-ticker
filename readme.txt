@@ -13,7 +13,7 @@ ITICKER is a stylish widget to display twitter search results and share buttons 
 
 == Installation ==
 
-1. Visit www.itickerapp.com and signin with Twitter to create and configure your ITICKER account.
+1. Visit <a href="http://www.itickerapp.com" target="_blank">www.itickerapp.com</a> and signin with Twitter to create and configure your iticker toolbar.
 
 2. Upload `iticker.php` to the `/wp-content/plugins/` directory
 
@@ -21,7 +21,7 @@ ITICKER is a stylish widget to display twitter search results and share buttons 
 
 4. From the Appearance menu, select ITICKER Configuration and enter your ITICKER ID.
 
-Follow <a href="http://twitter.com/itickerapp">ITICKER</a> to stay up-to-date with new developments.
+Follow <a href="http://twitter.com/itickerapp" target="_blank">ITICKER</a> to stay up-to-date with new developments.
 
 == Screenshots ==
 
