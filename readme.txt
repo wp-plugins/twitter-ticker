@@ -6,7 +6,7 @@ Requires at least: 1.5
 Tested up to: 2.8.4
 Stable tag: trunk
 
-ITICKER is a stylish widget to display twitter search results and share buttons on your website. 
+iticker is a stylish, customisable information toolbar for your website or blog.
 
 == Description ==
 
@@ -35,4 +35,5 @@ Contact us at iticker [at] eduvoyage [dot] com if you need any help installing t
 == Changelog ==
 <ul>
   <li>18 July 2010: New iticker widget.</li>
+  <li>20 July 2010: Update documentation.</li>  
 </ul>
