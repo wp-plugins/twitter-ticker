@@ -19,7 +19,7 @@ iticker is a stylish, customisable information toolbar for your website or blog.
 
 3. In your Wordpress admin area, go to the Plugins page and activate the ITICKER plugin.
 
-4. From the Appearance menu, select ITICKER Configuration and enter your ITICKER ID.
+4. From the Appearance menu, select ITICKER Configuration and enter your ITICKER ID. Get your ITICKER ID by signing in at <a href="http://www.itickerapp.com" target="_blank">www.itickerapp.com</a>, clicking on 'My iticker', selecting 'install' and then 'Wordpress' from the list of supported platforms. Your ID will be in the instructions.
 
 Follow <a href="http://twitter.com/itickerapp" target="_blank">ITICKER</a> to stay up-to-date with new developments.
 
