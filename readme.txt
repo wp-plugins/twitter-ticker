@@ -36,4 +36,5 @@ Contact us at iticker [at] eduvoyage [dot] com if you need any help installing t
 <ul>
   <li>18 July 2010: New iticker widget.</li>
   <li>20 July 2010: Update documentation.</li>  
+  <li>23 July 2010: Update documentation.</li>    
 </ul>
