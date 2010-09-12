@@ -2,12 +2,12 @@
 /*
 Plugin Name: iticker - The information ticker
 Plugin URI: http://www.itickerapp.com
-Version: v0.5.0
+Version: v0.6
 Author: iticker
 Description: Stylish, customisable information toolbar for your website or blog.
 
  
-Copyright 20010  ITICKER  (email : iticker [a t ] eduvoyage DOT com)
+Copyright 20010  ITICKER  (email : iticker [a t ] itickerapp DOT com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

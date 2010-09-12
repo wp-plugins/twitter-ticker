@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: osahyoun
-Tags: twitter, tweets, ticker, feed, widget, share, plugin, widget, reddit, digg, google, buzz, stumbleupon, myspace
+Tags: twitter, tweets, ticker, feed, widget, share, plugin, widget, flickr, reddit, digg, google, buzz, stumbleupon, myspace
 
 Requires at least: 1.5
 Tested up to: 2.8.4
@@ -37,4 +37,6 @@ Contact us at iticker [at] eduvoyage [dot] com if you need any help installing t
   <li>18 July 2010: New iticker widget.</li>
   <li>20 July 2010: Update documentation.</li>  
   <li>23 July 2010: Update documentation.</li>    
+  <li>12 September 2010: Update documentation. FLickr Module added.</li>    
+  
 </ul>
