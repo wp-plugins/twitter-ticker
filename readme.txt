@@ -25,9 +25,8 @@ Follow <a href="http://twitter.com/itickerapp" target="_blank">ITICKER</a> to st
 
 == Screenshots ==
 
-1. ITICKER widget at the bottom of the screen, showing tweets.
-2. ITICKER widget showing share buttons.
-3. Configure ITICKER colours to fit in with your site.
+1. ITICKER widget at the bottom of the screen.
+2. ITICKER widget at the bottom of the screen.
 
 == FAQ ==
 Contact us at iticker [at] eduvoyage [dot] com if you need any help installing the plugin or have any feature requests.
