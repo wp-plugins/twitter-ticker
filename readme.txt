@@ -13,7 +13,7 @@ iticker is a stylish, customisable information toolbar for your website or blog.
 
 == Installation ==
 
-1. Visit <a href="http://www.itickerapp.com" target="_blank">www.itickerapp.com</a> and signin with Twitter to create and configure your iticker toolbar.
+1. Visit <a href="http://www.itickerapp.com" target="_blank">www.itickerapp.com</a> and signin with Twitter to create and configure your iticker toolbar. 
 
 2. Upload `iticker.php` to the `/wp-content/plugins/` directory
 
@@ -37,5 +37,5 @@ Contact us at iticker [at] eduvoyage [dot] com if you need any help installing t
   <li>20 July 2010: Update documentation.</li>  
   <li>23 July 2010: Update documentation.</li>    
   <li>12 September 2010: Update documentation. FLickr Module added.</li>    
-  
+  <li>14 September 2010: Minor bugs fixed.</li>      
 </ul>
