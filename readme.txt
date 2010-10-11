@@ -25,8 +25,8 @@ Follow <a href="http://twitter.com/itickerapp" target="_blank">ITICKER</a> to st
 
 == Screenshots ==
 
-1. ITICKER widget at the bottom of the screen.
-2. ITICKER widget at the bottom of the screen.
+1. ITICKER widget at the bottom of the screen (showing Flickr photos).
+2. ITICKER widget at the bottom of the screen (showing live Twitter feed).
 
 == FAQ ==
 Contact us at iticker [at] eduvoyage [dot] com if you need any help installing the plugin or have any feature requests.
@@ -38,4 +38,5 @@ Contact us at iticker [at] eduvoyage [dot] com if you need any help installing t
   <li>23 July 2010: Update documentation.</li>    
   <li>12 September 2010: Update documentation. FLickr Module added.</li>    
   <li>14 September 2010: Minor bugs fixed.</li>      
+  <li>11 October 2010: Update description.</li>
 </ul>
