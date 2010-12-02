@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: osahyoun
-Tags: twitter, tweets, ticker, feed, widget, share, plugin, widget, flickr, reddit, digg, google, buzz, stumbleupon, myspace
+Tags: stats, twitter, tweets, ticker, feed, widget, share, plugin, widget, flickr, reddit, digg, google, buzz, stumbleupon, myspace
 
 Requires at least: 1.5
 Tested up to: 2.8.4
@@ -25,11 +25,13 @@ Follow <a href="http://twitter.com/itickerapp" target="_blank">ITICKER</a> to st
 
 == Screenshots ==
 
-1. ITICKER widget at the bottom of the screen (showing Flickr photos).
-2. ITICKER widget at the bottom of the screen (showing live Twitter feed).
+1. iticker widget at the bottom of the screen (showing Flickr photos).
+2. iticker widget at the bottom of the screen (showing live Twitter feed).
+3. iticker widget showing live stats: popular URLS, and visitor counts.
+4. Configure your iticker to fit with your site's colour scheme.
 
 == FAQ ==
-Contact us at iticker [at] eduvoyage [dot] com if you need any help installing the plugin or have any feature requests.
+Contact us at support [at] itickerapp [dot] com if you need any help installing the plugin or have any feature requests.
 
 == Changelog ==
 <ul>
@@ -39,4 +41,5 @@ Contact us at iticker [at] eduvoyage [dot] com if you need any help installing t
   <li>12 September 2010: Update documentation. FLickr Module added.</li>    
   <li>14 September 2010: Minor bugs fixed.</li>      
   <li>11 October 2010: Update description.</li>
+  <li>1 December 2010: Update description and add new screen shots.</li>
 </ul>

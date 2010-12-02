@@ -2,12 +2,12 @@
 /*
 Plugin Name: iticker - The information ticker
 Plugin URI: http://www.itickerapp.com
-Version: v0.6.4
+Version: v0.6.5
 Author: iticker
-Description: Stylish, customisable information toolbar for your website or blog. Featuring Flickr gallery, Twitter feed and Share It buttons.
+Description: Stylish, customisable information toolbar for your website or blog. Featuring Flickr gallery, Twitter feed, Share It buttons and live web stats.
 
  
-Copyright 20010  ITICKER  (email : iticker [a t ] itickerapp DOT com)
+Copyright 20011  ITICKER  (email : iticker [a t ] itickerapp DOT com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -50,7 +50,7 @@ function insert_js() {
 
 echo <<<Javascript
 
- <script type='text/javascript' src='http://static.itickerapp.com/iticker_seed.js?ver=0.0.1'></script>
+ <script type='text/javascript' src='http://static.itickerapp.com/iticker_seed.js?ver=0.0.2'></script>
 
 Javascript;
 
