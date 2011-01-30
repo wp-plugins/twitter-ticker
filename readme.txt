@@ -42,4 +42,5 @@ Contact us at support [at] itickerapp [dot] com if you need any help installing 
   <li>14 September 2010: Minor bugs fixed.</li>      
   <li>11 October 2010: Update description.</li>
   <li>1 December 2010: Update description and add new screen shots.</li>
+  <li>30 January 2011: Large update to flickr module.</li>  
 </ul>

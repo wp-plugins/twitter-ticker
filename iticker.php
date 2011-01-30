@@ -2,7 +2,7 @@
 /*
 Plugin Name: iticker - The information ticker
 Plugin URI: http://www.itickerapp.com
-Version: v0.6.5
+Version: v0.6.6
 Author: iticker
 Description: Stylish, customisable information toolbar for your website or blog. Featuring Flickr gallery, Twitter feed, Share It buttons and live web stats.
 
