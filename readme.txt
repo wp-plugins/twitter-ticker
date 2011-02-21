@@ -44,4 +44,5 @@ Contact us at support [at] itickerapp [dot] com if you need any help installing 
   <li>1 December 2010: Update description and add new screen shots.</li>
   <li>30 January 2011: Large update to flickr module.</li>  
   <li>18 February 2011: Introduce new icons and twitter follow button.</li>    
+  <li>21 February 2011: Minor styling issues resolved.</li>      
 </ul>
